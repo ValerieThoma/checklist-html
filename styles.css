@@ -9,8 +9,9 @@ h4{
 	font-family: 'Amatic SC', cursive;
 	color: grey;
 }
-label {
+label{
     color: black;
+    margin: 9px;
 }
 
 
@@ -36,5 +37,7 @@ label {
 .btn:hover{
 	background-color: grey;
 }
-
+input[type=button]{
+	margin-top: 7px;
+}
 
