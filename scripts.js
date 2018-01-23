@@ -18,6 +18,11 @@ $(document).ready(function() {
 		this.value = this.checked ? .5 : 0;
 		console.log(this.value)
 	});
+	$('.none').on('change', function(e){
+		e.stopPropagation();
+		this.value = this.checked ? 0 : 0;
+		console.log(this.value);
+	})
 
 	//add values, return sum//
 	var sum = 0;
