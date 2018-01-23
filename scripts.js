@@ -1,11 +1,12 @@
 $(document).ready(function() {
 	$('select').material_select();
 
-	//retrieve value from checked items//
+	//assign value to checked items//
 	$('.quarter').on('change', function(e) {
 		e.stopPropagation();
 		this.value = this.checked ? .25 : 0;
 		console.log(this.value)
+
 	});
 	$('.full').on('change', function(e) {
 		e.stopPropagation();
@@ -18,11 +19,20 @@ $(document).ready(function() {
 		console.log(this.value)
 	});
 
-	//add values//
-	
+	//add values, return sum//
+	var sum = 0;
+    $('#add').click(function() {
+        sum = 0;
+        $('#tampon :checkbox:checked').each(function(idx, elm) {
+            sum += parseFloat(elm.value, 10);
+        });
+        this.value = sum
+       
+    
+    });
+    
 
 	
-
 
 	// $('select').material_select('destroy');
 });

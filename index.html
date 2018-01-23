@@ -13,6 +13,10 @@
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Roboto" rel="stylesheet">
 
+	<!-- Materialize Icons -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
 	<!-- Compiled and minified JavaScript -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
 	
@@ -28,7 +32,7 @@
 
 
 	<div class="container">
-		<form action="#">
+		<form id="tampon" action="#">
 			<h2 class="center-align">Is This Movie a Chick Flick? A Checklist</h2>
 			<h3>1. Which of the following elements/devices are found in this movie? Check all that apply:</h3>
 		    <p>
@@ -666,7 +670,10 @@
 			<h2 class="center-align">Tally your tampons!</h2>
 			<h4 class="center-align">If you figured 3 or more full tampons, this movie is a
 			chick flick!</br>
-			Fewer than 3 -- not so much for you, ladies.</h4>	
+			Fewer than 3 -- not so much for you, ladies.</h4>
+			<div class="center-align">			
+				<input id="add" type="button" class="waves-effect waves-light btn" value="Get Total">	
+			</div>
 	  	</form>
 
 		
