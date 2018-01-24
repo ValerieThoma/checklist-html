@@ -15,7 +15,7 @@
 
 ## License
 
-* WFTPL 
+* WTFPL 
 
 ## Future Goals
 
