@@ -1,6 +1,6 @@
 # Chick Flick Checklist 
 
-## A mostly arbitrary standardard of measure for which to determine the "chickiness" of a film. That is to say, does this movie observe enough of the tropes present in a majority of cinema that is commercially marketed toward women? 
+## A mostly arbitrary standard of measure for which to determine the "chickiness" of a film. That is to say, does this movie observe enough of the tropes present in a majority of cinema that is commercially marketed toward women? 
 
 ![Header](/FiLM.jpg)
 
@@ -19,7 +19,7 @@
 
 ## Future Goals
 
-* Updates to Featured Perfomers and tropes 
+* Updates to Featured Performers and tropes  
 * Recalibrating of points awarded
 
 
