@@ -40,4 +40,10 @@ label{
 input[type=button]{
 	margin-top: 7px;
 }
+@media(max-width: 600px){
+    label{
+        font-size: 26px;
+        
+    }
+}
 
