@@ -11,7 +11,7 @@
 
 ## Acknowledgments 
 
-* This application was intended to assist in the scoring of films for the [Comrade Radio Network](http://www.comraderadio.com) podcast, [Falling in Love Montage](http://www.fallinginlovemontage.com). 
+* This application was intended to assist in the scoring of films for the [Flying Machine Network](http://www.flyingmachine.network) podcast, [Falling in Love Montage](http://www.fallinginlovemontage.com). 
 
 ## License
 
